@@ -1,0 +1,33 @@
+---
+output:
+    word_document:
+        reference_docx: templates/word-styles-reference-01.docx
+        toc: true
+    pdf_output:
+        toc: true
+title: "Draft Paper"
+author:
+- name: 'Author 1'
+  affiliation: Affil 1
+- name: Author 2
+  affiliation: Affil 2
+abstract: "This is the abstract"
+keywords: "kwarg1, kwarg2, kwarg3"
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+csl: styles/vancouver-superscript.csl
+bibliography: Endnote.xml
+---
+
+# Introduction
+[@Author2019]
+
+# Results
+
+# Methods
+
+# Discussion
+
+# Conclusion
+
+#####
+# Bibliography
