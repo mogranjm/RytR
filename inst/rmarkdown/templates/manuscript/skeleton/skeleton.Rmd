@@ -1,19 +1,17 @@
 ---
-output: resRchwritR::manuscript
-    # word_document:
-    #     reference_docx: templates/style-reference.docx
-    #     toc: true
+output: RytR::manuscript
 title: "Draft Paper"
 author:
 -   name: 'Author 1'
     affiliation: Affil 1
 -   name: Author 2
     affiliation: Affil 2
-abstract: "This is the abstract."
+abstract: >
+    This is the abstract.
 keywords: "kwarg1, kwarg2, kwarg3"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
-csl: styles/vancouver-superscript.csl
-bibliography: Endnote.xml
+csl: bib-styles/vancouver-superscript.csl   # Modify this field to alter your bibliography style
+bibliography: Endnote.xml                   # Overwrite this dummy bibliography to include your own
 ---
 
 # Introduction
