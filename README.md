@@ -1,2 +1,2 @@
-# resRch_writR
+# RytR
 RMarkdown Template for Research Papers

@@ -1,8 +1,8 @@
-Package: resRchwritR
+Package: RytR
 Title: RMarkdown Templates for Research Manuscripts
 Version: 0.0.0.9000
 Authors@R: person("James", "Morgan", email = "ja.morgan1@outlook.com", role = c("aut", "cre"))
-Description: A template for a research manuscript, default references are Vancouver superscript and are sourced from an xml file exported from Endnote
+Description: A template for a research manuscript, default references are Vancouver superscript and are sourced from an xml file exported from Endnote. Citation styles sourced from github.com/citation-style-language/styles-distribution.git
 Depends: R (>= 3.5.3)
 license: GPL-3
 encoding: utf-8
