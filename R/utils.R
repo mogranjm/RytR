@@ -10,11 +10,16 @@ find_resource <- function(template, file = 'template.tex'){
     res
 }
 
+
 # Helper function to create a custom word format, based on word_document
 # Including custom latex and docx style template
 word_document_format <- function(
-    format,
-    docx_template = find_resource(format, 'style-reference.docx'),
+    template_name,
+    docx_template = find_resource(template_name, 'style-reference.docx'),
+    pandoc_args = c(
+        "--lua-filter", find_resource(template_name, 'scholarly-metadata.lua'),
+        "--lua-filter", find_resource(template_name, 'author-info-blocks.lua')
+    ),
     ...
 ){
     fmt <- rmarkdown::word_document(
