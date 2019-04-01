@@ -18,14 +18,14 @@ word_document_format <- function(
     docx_template = find_resource(template_name, 'style-reference.docx'),
     pandoc_args = c(
         "--lua-filter", find_resource(template_name, 'scholarly-metadata.lua'),
-        "--lua-filter", find_resource(template_name, 'author-info-blocks.lua'),
-        "--pdf-engine", 'xelatex'
+        "--lua-filter", find_resource(template_name, 'author-info-blocks.lua')
     ),
     ...
 ){
     fmt <- rmarkdown::word_document(
         ...,
-        reference_docx = docx_template
+        reference_docx = docx_template,
+        pandoc_args = pandoc_args
     )
     fmt$inherits <- "word_document"
     fmt
