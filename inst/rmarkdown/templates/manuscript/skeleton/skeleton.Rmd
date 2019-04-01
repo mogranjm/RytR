@@ -19,7 +19,8 @@ This is a statement with a reference [@Author2019].
 <!-- This is an HTML comment tag, anything in one of these won't be rendered into your final document-->
 
 ```{r}
-# This is a code chunk. You can write R code here and the result of its execution will be displayed in the rendered document 
+# This is a code chunk. You can write R code here and the result of its execution will be displayed in the rendered document.
+# Note that code comments will be written to the output document. To exclude this, use HTML comment tags, or set the chunk option echo=FALSE
 ```
 
 ##### This is the 'Heading 5' tag. This template uses these as a page break
