@@ -18,7 +18,8 @@ word_document_format <- function(
     docx_template = find_resource(template_name, 'style-reference.docx'),
     pandoc_args = c(
         "--lua-filter", find_resource(template_name, 'scholarly-metadata.lua'),
-        "--lua-filter", find_resource(template_name, 'author-info-blocks.lua')
+        "--lua-filter", find_resource(template_name, 'author-info-blocks.lua'),
+        "--pdf-engine", 'xelatex'
     ),
     ...
 ){

@@ -2,10 +2,13 @@
 output: RytR::manuscript
 title: "Draft Paper"
 author:
--   name: 'Author 1'
-    affiliation: Affil 1
--   name: Author 2
-    affiliation: Affil 2
+  - Author 1:
+      affiliation: 
+        - Affil 1
+      email: email@example.com
+  - Author 2:
+      affiliation: 
+        - Affil 2
 abstract: >
     This is the abstract.
 keywords: "kwarg1, kwarg2, kwarg3"
