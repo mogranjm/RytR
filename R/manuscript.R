@@ -5,10 +5,10 @@ manuscript <- function(...) {
 
     word_document_format(
         "manuscript",
-        pandoc_args = c(
-            paste0("--lua-filter=", scholarly_metadata),
-            paste0("--lua-filter=", author_info)
-        ),
+        # pandoc_args = c(
+        #     paste0("--lua-filter=", scholarly_metadata),
+        #     paste0("--lua-filter=", author_info)
+        # ),
         ...
     )
 }
