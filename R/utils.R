@@ -14,13 +14,11 @@ find_resource <- function(template, file = 'template.tex'){
 # Including custom latex and docx style template
 word_document_format <- function(
     format,
-    pandoc_template = find_resource(format, 'style-reference.docx'),
-    docx_template = find_resource(format, 'template.tex'),
+    docx_template = find_resource(format, 'style-reference.docx'),
     ...
 ){
     fmt <- rmarkdown::word_document(
         ...,
-        template = pandoc_template,
         reference_docx = docx_template
     )
     fmt$inherits <- "word_document"
