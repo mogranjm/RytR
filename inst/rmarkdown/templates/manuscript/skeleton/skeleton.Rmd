@@ -10,8 +10,8 @@ abstract: >
     This is the abstract.
 keywords: "kwarg1, kwarg2, kwarg3"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
-csl: bib-styles/vancouver-superscript.csl   # Modify this field to alter your bibliography style
-bibliography: Endnote.xml                   # Overwrite this dummy bibliography to include your own
+csl: resources/bib-styles/vancouver-superscript.csl   # Modify this field to alter your bibliography style
+bibliography: resources/Endnote.xml                   # Overwrite this dummy bibliography to include your own
 ---
 
 # Introduction
