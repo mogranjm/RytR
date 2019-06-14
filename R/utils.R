@@ -1,8 +1,8 @@
-# Helper function to locate a template file in the RytR package
-# Searches in RytR/inst/rmarkdown/templates/*Template Name*/resources/ for the specified template file
+# Helper function to locate a template file in the papeRs package
+# Searches in papeRs/inst/rmarkdown/templates/*Template Name*/resources/ for the specified template file
 find_resource <- function(template, file = 'template.tex'){
     res <- system.file(
-        "rmarkdown", "templates", template, "resources", file, package = "RytR"
+        "rmarkdown", "templates", template, "resources", file, package = "papeRs"
     )
     if(res == "") stop(
         "Couldn't locate ", template, "/resources/", file, call. = FALSE
