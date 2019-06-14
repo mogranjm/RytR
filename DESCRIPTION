@@ -1,4 +1,4 @@
-Package: RytR
+Package: papeRs
 Title: RMarkdown Templates for Research Manuscripts
 Version: 0.0.0.9000
 Authors@R: person("James", "Morgan", email = "ja.morgan1@outlook.com", role = c("aut", "cre"))
