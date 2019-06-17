@@ -4,6 +4,8 @@
 
 # Session Data files
 .RData
+.Renviron
+.Rprofile
 
 # Example code in package build process
 *-Ex.R
@@ -21,6 +23,10 @@
 vignettes/*.html
 vignettes/*.pdf
 
+# produced template intermediates
+inst/rmarkdown/templates/**/skeleton/skeleton.pdf
+inst/rmarkdown/templates/**/skeleton/skeleton.tex
+
 # OAuth2 token, see https://github.com/hadley/httr/releases/tag/v0.3
 .httr-oauth
 
@@ -34,3 +40,4 @@ vignettes/*.pdf
 
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
+.Rproj.user
