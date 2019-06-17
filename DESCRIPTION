@@ -1,9 +1,13 @@
 Package: papeRs
+Type: Package
 Title: RMarkdown Templates for Research Manuscripts
-Version: 0.0.0.9000
+Version: 0.0.1
 Authors@R: person("James", "Morgan", email = "ja.morgan1@outlook.com", role = c("aut", "cre"))
 Description: A template for a research manuscript, default references are Vancouver superscript and are sourced from an xml file exported from Endnote. Citation styles sourced from github.com/citation-style-language/styles-distribution.git
-Depends: R (>= 3.5.3)
-license: GPL-3
-encoding: utf-8
-lazydata: true
+License: GPL(>=2.0)
+Imports: utils, rmarkdown, knitr, yaml
+URL: https://github.com/mogranjm/papeRs
+BugReports: https://github.com/mogranjm/papeRs/issues
+Suggests: testit
+Encoding: UTF-8
+RoxygenNote: 6.1.0
