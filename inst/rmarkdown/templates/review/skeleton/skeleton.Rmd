@@ -4,27 +4,40 @@ author:
   - First Author: 
       institute: [one, two]
       email: email@example.com
-      correspondence: true
-      equal_contributor: true
-  - Second Author:
-      institute: two
 institute:
   - one: Institute One
   - two: Institute Two
 abstract: >
     This is the abstract.
+    
+    The first sentences provide brief background information, including the gaps in the literature that the review aims to address.
+    
+    The next sentence describes the purpose and scope of the review. Providing specific information as to what your review covers helps your readers determine whether your review is useful for their research.
+    
+    The final sentences summarise the main findings and how they relate to the broader context.
+    
 keywords: "kwarg1, kwarg2, kwarg3"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
+
 csl: resources/bib-styles/vancouver-superscript.csl   # Modify this field to alter your bibliography style
 bibliography: resources/Endnote.xml                   # Overwrite this dummy bibliography to include your own
+
 output: 
-    papeRs::manuscript:
-      toc: true
+    papeRs::review:
+      toc: false
 ---
 
 # Introduction
+
+The first sentences introduce the topic broadly, include relevant background information and explain key concepts.
+
 This is a statement with a reference [@Author2019].
 <!-- This is an HTML comment tag, anything in one of these won't be rendered into your final document-->
+
+The next sentences provide key information that is relevant to the specific topic and explain the importance of the topic.
+
+The penultimate sentence states the aim (or purpose) of the literature review. Note that the specific aim is provided after general background and relevance to topic, close to the end of the introduction.
+The final sentence outlines the scope - the key points that will be discussed in the body of the review.
 
 ```{r}
 # This is a code chunk. You can write R code here and the result of its execution will be displayed in the rendered document.
@@ -32,10 +45,6 @@ This is a statement with a reference [@Author2019].
 ```
 
 ##### This is the 'Heading 5' tag. This template uses these as a page break
-# Results
-
-# Methods
-
 # Discussion
 
 # Conclusion
