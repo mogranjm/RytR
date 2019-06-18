@@ -15,5 +15,5 @@ addons:
     - ghostscript
 
 before_install:
-    -wget -q0- https://github.com/yihui/tinytex/raw/master/tools/download-travis-linux.sh | sh
+    - wget -q0- https://github.com/yihui/tinytex/raw/master/tools/download-travis-linux.sh | sh
 

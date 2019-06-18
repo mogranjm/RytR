@@ -1,3 +1,4 @@
 ^temp\.Rproj$
 ^\.Rproj\.user$
 ^\.Rprofile$
+^\.travis\.yml
