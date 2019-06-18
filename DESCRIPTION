@@ -10,4 +10,4 @@ URL: https://github.com/mogranjm/papeRs
 BugReports: https://github.com/mogranjm/papeRs/issues
 Suggests: testit
 Encoding: UTF-8
-RoxygenNote: 6.1.0
+RoxygenNote: 6.1.1
