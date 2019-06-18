@@ -21,6 +21,7 @@ find_resource <- function(template, file = 'template.tex'){
 #' @param template_name Name of target document template
 #' @param docx_template Name of the target docx template for this document
 #' @param pandoc_args Arguments passed to Pandoc
+#' @param ... Arguments passed to rmarkdown::word_document()
 word_document_format <- function(
     template_name,
     docx_template = find_resource(template_name, 'style-reference.docx'),
