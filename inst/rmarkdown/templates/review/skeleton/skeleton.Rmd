@@ -29,6 +29,8 @@ output:
 
 # Introduction
 
+### In general, literature reviews are structured in a similar way to a standard essay, with an introduction, a body and a conclusion. Within the body, sub-headings are often used.
+
 The first sentences introduce the topic broadly, include relevant background information and explain key concepts.
 
 This is a statement with a reference [@Author2019].
@@ -45,9 +47,17 @@ The final sentence outlines the scope - the key points that will be discussed in
 ```
 
 ##### This is the 'Heading 5' tag. This template uses these as a page break
-# Discussion
+# Body
+
+The body of the review contains your review of the literature relevant to your research question or aim. Aim to structure the body of your literature review in a logical and coherent way. Consider what your sub-topics or sections will be in order to answer your research question thoroughly and coherently. Then consider the most logical order to discuss your sections. Creating sub-headings for the sections of your review will assist you in creating a logical structure and keep you focused on sub-topics relevant to your research aim.
+
+In the body of your literature review, it is important to analyse the literature rather than to merely describe the findings of a number of different literature sources. Some description of the key findings is important to give the reader context, however your review should also include an analysis of the key themes, gaps in understanding, and points of disagreement between the different literature sources.
+
+There are numerous ways to organise your body paragraphs, depending on your topic. You may want to organise some of your paragraphs in chronological order, e.g. historical findings, more recent findings, current research. You may want to group your literature sources into paragraphs based on similar arguments or findings. You may want to group your sources into similar sub-topics and compare different findings within a single paragraph.
 
 # Conclusion
+
+Start by demonstrating how you have answered your research question and/or how you have achieved your research aim. This tells the audience you have achieved what you set out to achieve. Then highlight the key points you discussed. Now you can refer to implications of this knowledge in a broader sense, as well as recommendations for future studies/research (if applicable). The conclusion starts specific and finishes broad - the opposite structure to your introduction.
 
 #####
 # Bibliography
