@@ -17,7 +17,7 @@ word_document_format(template_name,
 
 \item{pandoc_args}{Arguments passed to Pandoc}
 
-\item{...}{Arguments passed to rmarkdown::word_document()}
+\item{...}{Arguments passed to \code{rmarkdown::\link{word_document_format}()}.}
 }
 \description{
 Locates the custom .tex template file in the rmarkdown/templates directory
