@@ -26,3 +26,5 @@ test_format <- function(name, os_skip = NULL) {
 }
 
 test_format("manuscript")
+test_format("review")
+test_format("abstract")

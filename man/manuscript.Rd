@@ -10,5 +10,5 @@ manuscript(...)
 \item{...}{Arguments passed to \code{rmarkdown::\link{word_document_format}()}.}
 }
 \description{
-Render Meeting Manuscript as a .docx using the custom .tex file and .lua filters
+Render Research Manuscript as a .docx using the custom .tex file and .lua filters
 }

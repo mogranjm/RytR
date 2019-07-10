@@ -1,0 +1,21 @@
+---
+title: "Draft Conference Abstract"
+author:
+  - First Author: 
+      institute: [one, two]
+      email: email@example.com
+institute:
+  - one: Institute One
+  - two: Institute Two
+
+output: 
+    papeRs::abstract:
+---
+
+# Background
+
+# Methods
+
+# Results
+
+# Conclusion
