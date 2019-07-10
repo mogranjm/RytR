@@ -9,7 +9,7 @@ institute:
   - two: Institute Two
 
 output: 
-    papeRs::abstract:
+    papeRs::abstract
 ---
 
 # Background
