@@ -41,3 +41,5 @@ inst/rmarkdown/templates/**/skeleton/skeleton.tex
 # Shiny token, see https://shiny.rstudio.com/articles/shinyapps.html
 rsconnect/
 .Rproj.user
+packrat/lib*/
+packrat/src/
