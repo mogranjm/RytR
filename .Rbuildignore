@@ -2,3 +2,4 @@
 ^\.Rproj\.user$
 ^\.Rprofile$
 ^\.travis\.yml
+^packrat/
