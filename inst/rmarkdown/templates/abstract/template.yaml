@@ -1,3 +1,3 @@
-name: Review 
-description: A template for a literature review.
-create_dir: true
+name: Abstract
+description: A template for a conference abstract.
+create_dir: false

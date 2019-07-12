@@ -2,7 +2,7 @@
 % Please edit documentation in R/abstract.R
 \name{abstract}
 \alias{abstract}
-\title{Knit R Markdown to MS Word Manuscript}
+\title{Knit R Markdown to MS Word Abstract}
 \usage{
 abstract(...)
 }
