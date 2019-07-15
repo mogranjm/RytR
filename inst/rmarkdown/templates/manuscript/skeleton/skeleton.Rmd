@@ -11,8 +11,17 @@ author:
 institute:
   - one: Institute One
   - two: Institute Two
-abstract: >
-    This is the abstract.
+abstract: |
+    This is the abstract, it contains paragraphs
+    
+    *Background*
+    
+    *Methods*
+    
+    *Results*
+    
+    *Conclusion*
+    
 keywords: "kwarg1, kwarg2, kwarg3"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
 csl: resources/bib-styles/vancouver-superscript.csl   # Modify this field to alter your bibliography style

@@ -7,14 +7,16 @@ author:
 institute:
   - one: Institute One
   - two: Institute Two
-abstract: >
-    This is the abstract.
+abstract: |
+    This is the abstract, it contains paragraphs
     
-    The first sentences provide brief background information, including the gaps in the literature that the review aims to address.
+    *Background*
     
-    The next sentence describes the purpose and scope of the review. Providing specific information as to what your review covers helps your readers determine whether your review is useful for their research.
+    *Methods*
     
-    The final sentences summarise the main findings and how they relate to the broader context.
+    *Results*
+    
+    *Conclusion*
     
 keywords: "kwarg1, kwarg2, kwarg3"
 date: "`r format(Sys.time(), '%B %d, %Y')`"
